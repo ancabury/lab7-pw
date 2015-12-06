@@ -1,0 +1,12 @@
+base: &base
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  host: localhost
+  timeout: 5000
+  password: root
+  username: postgres
+
+development:
+  database: lab-pw
+  <<: *base

@@ -1,0 +1,55 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ */
+/* line 1, /home/anca/Documents/lab7-pw/app/assets/stylesheets/tic-tac-toe.scss */
+body {
+  font-size: 50px;
+  line-height: 24px;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 8, /home/anca/Documents/lab7-pw/app/assets/stylesheets/tic-tac-toe.scss */
+table, tr, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  empty-cells: show;
+}
+
+/* line 14, /home/anca/Documents/lab7-pw/app/assets/stylesheets/tic-tac-toe.scss */
+table {
+  width: 900px;
+  height: 900px;
+}
+
+/* line 19, /home/anca/Documents/lab7-pw/app/assets/stylesheets/tic-tac-toe.scss */
+td {
+  width: 30%;
+  height: 30%;
+}
+
+/* line 24, /home/anca/Documents/lab7-pw/app/assets/stylesheets/tic-tac-toe.scss */
+.center {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 29, /home/anca/Documents/lab7-pw/app/assets/stylesheets/tic-tac-toe.scss */
+.cell-hover:hover {
+  background-color: #e8e8e8;
+}
+
+/* line 33, /home/anca/Documents/lab7-pw/app/assets/stylesheets/tic-tac-toe.scss */
+.result {
+  margin: 10px;
+}

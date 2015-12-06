@@ -1,0 +1,35 @@
+body{
+  font-size: 50px;
+  line-height: 24px;
+  width: 100%;
+  height: 100%;
+}
+
+table, tr, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  empty-cells: show;
+}
+
+table{
+  width: 900px;
+  height: 900px;
+}
+
+td {
+  width: 30%;
+  height: 30%;
+}
+
+.center{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cell-hover:hover {
+  background-color: #e8e8e8;
+}
+
+.result{
+  margin: 10px;
+}
