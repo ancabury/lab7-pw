@@ -14,6 +14,7 @@ gem 'haml'
 gem 'haml-rails', '~> 0.9'
 gem 'jquery-turbolinks'
 gem 'simple_form', '~> 3.1.0'
+gem 'responders', '~> 2.1'
 
 group :development, :test do
   gem 'byebug'
